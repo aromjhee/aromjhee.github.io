@@ -2106,7 +2106,8 @@ input, select, textarea {
 
 	#intro {
 		text-align: center;
-		overflow: hidden;
+    overflow: hidden;
+    margin-top: 30px;
 	}
 
 		#intro section {
