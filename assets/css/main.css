@@ -1563,7 +1563,7 @@ input, select, textarea {
 			}
 
 	footer {
-		margin: 2.25em 0 0 0;
+    margin: 2.25em 0 0 0;
 	}
 
 /* Box */
@@ -1579,7 +1579,7 @@ input, select, textarea {
 			width: auto;
 			left: 1.75em;
 			top: 1.75em;
-			margin: -4.5em 0 4.25em -3.5em;
+			margin: -4.5em 0 2.25em -3.5em;
 		}
 
 		.box.post header {
@@ -1701,7 +1701,7 @@ input, select, textarea {
             transition: transform .1s;
             border-radius: 5px;
             height: 300px;
-            object-fit: contain
+            object-fit: cover
         }
         
         .image img:hover {
@@ -2415,7 +2415,8 @@ input, select, textarea {
 		/* Box */
 
 			.box footer ul.actions li {
-				margin: 1em 0 0 0;
+				/* margin: 1em 0 0 0; */
+				margin: 0em 5px 0 0;
 				display: block;
 			}
 
@@ -2534,7 +2535,8 @@ input, select, textarea {
 						line-height: 1;
 						text-transform: none !important;
 						font-family: 'Font Awesome 5 Free';
-						font-weight: 900;
+            font-weight: 900;
+            margin-left: 29px;
 					}
 
 					#titleBar .toggle:before {
@@ -2701,7 +2703,7 @@ input, select, textarea {
 			}
 
 			footer {
-				margin: 2em 0 0 0;
+        margin: 2em 0 0 0;
 			}
 
 		/* Box */
