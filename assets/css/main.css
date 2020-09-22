@@ -464,7 +464,8 @@ input, select, textarea {
 				display: flex;
 				flex-wrap: wrap;
 				box-sizing: border-box;
-				align-items: stretch;
+        align-items: stretch;
+        justify-content: center;
 			}
 
 				.row > * {
@@ -1571,7 +1572,8 @@ input, select, textarea {
 	.box {
 		background: #ffffff;
 		border-bottom: solid 1px #ccc;
-		padding: 2.75em 1.75em 2.75em 1.75em;
+    padding: 2.75em 1.75em 2.75em 1.75em;
+    min-height: 650px;
 	}
 
 		.box .image.featured {
