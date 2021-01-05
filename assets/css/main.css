@@ -100,8 +100,8 @@ input, select, textarea {
 
 	body, input, textarea, select {
 		font-family: 'Source Sans Pro';
-		font-weight: 300;
-		color: #5d5d5d;
+    font-weight: 400;
+		color: #323131;
 		font-size: 14pt;
 		line-height: 1.75em;
 	}
@@ -2865,4 +2865,8 @@ article section p a {
 
 .tech-stack {
   height: 50px;
+}
+
+.project-name:hover {
+  color: orange
 }
